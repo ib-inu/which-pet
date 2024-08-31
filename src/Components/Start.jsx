@@ -5,17 +5,17 @@ function Start({ dispatch }) {
             <p>Take the quiz to know which pet suits best for you.</p>
             <div className="images">
                 <div className="img1">
-                    <img src='../public/Dog.jpg' alt="Dog" />
+                    <img src='/images/Dog.jpg' alt="Dog" />
                 </div>
                 <div className="img2">
-                    <img src='../public/Fish.jpg' alt="Fish" />
+                    <img src='/images/Fish.jpg' alt="Fish" />
                 </div>
                 <div className="img3">
-                    <img src='../public/Bird.jpg' alt="Bird" />
+                    <img src='/images/Bird.jpg' alt="Bird" />
                 </div>
                 <div className="img4">
                     <img
-                        src='../public/Cat.jpg'
+                        src='/images/Cat.jpg'
                         alt="Cat" />
                 </div>
             </div>

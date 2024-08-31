@@ -5,7 +5,7 @@ function Result({ bestMatch }) {
                 <div className='result' >
                     <h1> Your Suitable Pet is:</h1 >
                     <h2 className='custom-underline'>--{bestMatch}--</h2>
-                    <img src={`../public/${bestMatch}.jpg`} />
+                    <img src={`/images/${bestMatch}.jpg`} />
                     <p>Thank you for taking the Quiz!</p>
                     <button onClick={() => window.location.reload()}>Restart Quiz</button>
                 </div >

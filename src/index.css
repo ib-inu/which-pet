@@ -52,8 +52,7 @@ button:hover {
   background-color: #1166ac59;
   width: 80vw;
   border-radius: 28px;
-  margin: 0 auto;
-  margin-top: 30%;
+  margin: 10% auto;
   text-align: center;
   max-width: 1250px;
   padding: 25px;
@@ -191,7 +190,8 @@ button:hover {
 }
 .result img {
   width: 20vw;
-  border-radius: 100%;
+  border-radius: 45%;
+  object-fit: cover;
 }
 
 .result button:hover {
